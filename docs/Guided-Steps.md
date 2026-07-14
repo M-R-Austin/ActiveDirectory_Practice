@@ -58,16 +58,21 @@ Steps to Set up Virtual Machine
 
   15. Now, back in VirtualBox, I set up my Client VM with Windows 11 OS.
 
-      <img src="/assets/screenshots/Create_Clinet_VM_15.png" alt="Screenshot" style="cursor: default; pointer-events: none;">
+      <img src="/assets/screenshots/Create_Client_VM_15.png" alt="Screenshot" style="cursor: default; pointer-events: none;">
 
   16. This is another speed bump I ran into. After a couple hours of trying to connect my Client's VM to the DC, troubleshooting, researching why it wasn't working, I realized that I had mistakenly created my Client's VM with Windows 11 HOME OS. To my frustration, The HOME version doesn't support being connected with Active Directory.
 
       <img src="/assets/screenshots/Incorrect_OS_Install_16.png" alt="Screenshot" style="cursor: default; pointer-events: none;">
 
-  17. Lesson learned. I had to recreate my Client VM with the Windows 11 PRO OS. (The PRO, ENTERPRISE, and EDUCATION versions are compatible with Active Directory)
+  17. Lesson learned. I had to recreate my Client VM with the Windows 11 PRO OS. (The PRO, ENTERPRISE, and EDUCATION versions are compatible with Active Directory).
+
+      <img src="/assets/screenshots/Correct_Install_OS_17.png" alt="Screenshot" style="cursor: default; pointer-events: none;">
+      
   18. Now that my Client VM was properly set up. It was time to link it to the static IP address of my DC to ensure they were in the same network.
 
       <img src="/assets/screenshots/Link_VM_DC_18.png" alt="Screenshot" style="cursor: default; pointer-events: none;">
+
+  19. 
       
 
     
